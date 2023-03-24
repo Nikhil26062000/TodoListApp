@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container{
+  width: 25%;
+  height: 60vh;
+  border-radius: 20px;
+  box-shadow: 1px 2px 10px black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:11%;
+  background-color:cadetblue;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+h3{
+  text-align: center;
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+}
+
+button{
+  width: 12%;
+  font-size: 16px;
+  border-radius: 8px;
+  background: border-box;
+  box-shadow: 1px 2px 5px black;
+}
+  
+input{
+  width: 59%;
+  height: 4vh;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.inputSpace{
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  font-size: 20px;
+    font-weight: 700;
+    text-align: start;
+    list-style-type: none;
+    padding-left: 20px;
+    color: aliceblue;
+    
+}
+
+.todo-style{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+.fa-close:before, .fa-multiply:before, .fa-remove:before, .fa-times:before, .fa-xmark:before {
+  content: "\f00d";
+  cursor: pointer;
+  color: aliceblue;
+}
+
+
